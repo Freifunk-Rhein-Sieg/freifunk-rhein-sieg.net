@@ -74,6 +74,12 @@ section .card .card-title > a {
 section .card .card-action > a {
   color: #df316c !important; }
 
+footer {
+  background-color: #df316c !important;
+  padding-top: 0 !important; }
+  footer a {
+    color: #f5f5f5; }
+
 body {
   padding: 0; }
 

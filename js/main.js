@@ -6,4 +6,5 @@ $(function () {
         $('#nav-' + id).addClass('active')
       }
   });
+  $('.modal').modal();
 })
