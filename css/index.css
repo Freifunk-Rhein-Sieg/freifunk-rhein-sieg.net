@@ -1,0 +1,54 @@
+header nav {
+  background-color: #df316c; }
+  header nav .nav-wrapper {
+    padding: 0 25px; }
+    header nav .nav-wrapper .brand-logo {
+      font-weight: 300; }
+
+section h1 {
+  font-weight: 100; }
+section h3 {
+  font-weight: 300; }
+@media only screen and (max-width: 993px) {
+  section .linear-gradient-card-wrapper > .col {
+    float: none;
+    margin: 0 auto; } }
+section .linear-gradient-card-wrapper > .col .linear-gradient-card {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card.blue-gradient {
+    background: linear-gradient(40deg, #2186f3, #01579b); }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card.pink-gradient {
+    background: linear-gradient(40deg, #ec407a, #880e4f); }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card.orange-gradient {
+    background: linear-gradient(40deg, #ff9800, #bf360c); }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card.green-gradient {
+    background: linear-gradient(40deg, #7cb342, #1b5e20); }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card .title {
+    font-size: 1.75rem;
+    display: block; }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card .description {
+    display: block; }
+  section .linear-gradient-card-wrapper > .col .linear-gradient-card .links {
+    margin-top: 15px; }
+    section .linear-gradient-card-wrapper > .col .linear-gradient-card .links a {
+      background-color: transparent;
+      font-size: 26px;
+      margin: 5px 10px;
+      -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
+      section .linear-gradient-card-wrapper > .col .linear-gradient-card .links a:hover {
+        -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
+
+body {
+  padding: 0; }
+
+/*# sourceMappingURL=index.css.map */

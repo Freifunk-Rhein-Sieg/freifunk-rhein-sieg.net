@@ -1,0 +1,12 @@
+@import "variables";
+header {
+  nav {
+    background-color: $ff_color;
+    .nav-wrapper {
+      padding: 0 25px;
+      .brand-logo {
+        font-weight: 300;
+      }
+    }
+  }
+}
