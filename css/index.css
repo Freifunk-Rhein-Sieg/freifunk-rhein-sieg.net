@@ -1,15 +1,20 @@
 header nav {
   background-color: #df316c; }
   header nav .nav-wrapper {
-    padding: 0 25px; }
+    padding: 0 25px;
+    width: 100vw; }
     header nav .nav-wrapper .brand-logo {
       font-weight: 300; }
+      @media screen and (max-width: 991px) {
+        header nav .nav-wrapper .brand-logo {
+          text-align: center;
+          width: 100%; } }
 
-section h1 {
+section h2 {
   font-weight: 100; }
 section h3 {
   font-weight: 300; }
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 991px) {
   section .linear-gradient-card-wrapper > .col {
     float: none;
     margin: 0 auto; } }
@@ -24,13 +29,30 @@ section .linear-gradient-card-wrapper > .col .linear-gradient-card {
   -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3); }
   section .linear-gradient-card-wrapper > .col .linear-gradient-card.blue-gradient {
-    background: linear-gradient(40deg, #2186f3, #01579b); }
+    background: linear-gradient(40deg, #2196f3, #01579b);
+    background: -moz-linear-gradient(40deg, #2196f3, #01579b);
+    background: -o-linear-gradient(40deg, #2196f3, #01579b);
+    background: -webkit-linear-gradient(40deg, #2196f3, #01579b);
+    background-color: #2196f3; }
   section .linear-gradient-card-wrapper > .col .linear-gradient-card.pink-gradient {
-    background: linear-gradient(40deg, #ec407a, #880e4f); }
+    background: linear-gradient(40deg, #ec407a, #880e4f);
+    background: -moz-linear-gradient(40deg, #ec407a, #880e4f);
+    background: -o-linear-gradient(40deg, #ec407a, #880e4f);
+    background: -webkit-linear-gradient(40deg, #ec407a, #880e4f);
+    background-color: #ec407a; }
   section .linear-gradient-card-wrapper > .col .linear-gradient-card.orange-gradient {
-    background: linear-gradient(40deg, #ff9800, #bf360c); }
+    background: linear-gradient(40deg, #ff9800, #bf360c);
+    background: -moz-linear-gradient(40deg, #ff9800, #bf360c);
+    background: -o-linear-gradient(40deg, #ff9800, #bf360c);
+    background: -webkit-linear-gradient(40deg, #ff9800, #bf360c);
+    background-color: #ff9800; }
   section .linear-gradient-card-wrapper > .col .linear-gradient-card.green-gradient {
-    background: linear-gradient(40deg, #7cb342, #1b5e20); }
+    background: linear-gradient(40deg, #7cb342, #1b5e20);
+    background: linear-gradient(40deg, #7cb342, #1b5e20);
+    background: -moz-linear-gradient(40deg, #7cb342, #1b5e20);
+    background: -o-linear-gradient(40deg, #7cb342, #1b5e20);
+    background: -webkit-linear-gradient(40deg, #7cb342, #1b5e20);
+    background-color: #7cb342; }
   section .linear-gradient-card-wrapper > .col .linear-gradient-card .title {
     font-size: 1.75rem;
     display: block; }
@@ -47,6 +69,10 @@ section .linear-gradient-card-wrapper > .col .linear-gradient-card {
       section .linear-gradient-card-wrapper > .col .linear-gradient-card .links a:hover {
         -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
+section .card .card-title > a {
+  color: #000 !important; }
+section .card .card-action > a {
+  color: #df316c !important; }
 
 body {
   padding: 0; }
