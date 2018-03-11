@@ -34,8 +34,10 @@ main {
           @include background-linear-gradient(40deg, #ff9800, #bf360c)
         }
         &.green-gradient {
-          background: linear-gradient(40deg, #7cb342, #1b5e20);
           @include background-linear-gradient(40deg, #7cb342, #1b5e20)
+        }
+        &.purple-gradient {
+          @include background-linear-gradient(40deg, #311b92, #673ab7)
         }
         .title {
           font-size: 1.75rem;

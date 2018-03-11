@@ -50,11 +50,16 @@ main {
       background-color: #ff9800; }
     main section .linear-gradient-card-wrapper > .col .linear-gradient-card.green-gradient {
       background: linear-gradient(40deg, #7cb342, #1b5e20);
-      background: linear-gradient(40deg, #7cb342, #1b5e20);
       background: -moz-linear-gradient(40deg, #7cb342, #1b5e20);
       background: -o-linear-gradient(40deg, #7cb342, #1b5e20);
       background: -webkit-linear-gradient(40deg, #7cb342, #1b5e20);
       background-color: #7cb342; }
+    main section .linear-gradient-card-wrapper > .col .linear-gradient-card.purple-gradient {
+      background: linear-gradient(40deg, #311b92, #673ab7);
+      background: -moz-linear-gradient(40deg, #311b92, #673ab7);
+      background: -o-linear-gradient(40deg, #311b92, #673ab7);
+      background: -webkit-linear-gradient(40deg, #311b92, #673ab7);
+      background-color: #311b92; }
     main section .linear-gradient-card-wrapper > .col .linear-gradient-card .title {
       font-size: 1.75rem;
       display: block; }
