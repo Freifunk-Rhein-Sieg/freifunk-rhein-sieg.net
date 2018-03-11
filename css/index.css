@@ -63,7 +63,7 @@ section .linear-gradient-card-wrapper > .col .linear-gradient-card {
     section .linear-gradient-card-wrapper > .col .linear-gradient-card .links a {
       background-color: transparent;
       font-size: 26px;
-      margin: 5px 10px;
+      margin: 5px;
       -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
       box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3); }
       section .linear-gradient-card-wrapper > .col .linear-gradient-card .links a:hover {
@@ -73,6 +73,14 @@ section .card .card-title > a {
   color: #000 !important; }
 section .card .card-action > a {
   color: #df316c !important; }
+section#downloads .download {
+  border-radius: 15px;
+  text-align: center; }
+  section#downloads .download .icon {
+    font-size: 8rem; }
+  section#downloads .download .title {
+    font-weight: 300;
+    font-size: 2.5rem; }
 
 footer {
   background-color: #df316c !important;
