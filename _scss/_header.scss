@@ -1,0 +1,16 @@
+header {
+  nav {
+    background-color: $ff_color;
+    .nav-wrapper {
+      padding: 0 25px;
+      width: 100vw;
+      .brand-logo {
+        @media screen and (max-width: 991px){
+          text-align: center;
+          width: 100%;
+        }
+        @extend .light-text
+      }
+    }
+  }
+}
