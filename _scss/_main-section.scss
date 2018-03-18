@@ -65,12 +65,26 @@ main {
         color: $black !important;
       }
       .card-action > a {
-        color: $ff_color !important;
+        color: $ff_magenta !important;
       }
     }
     #unterstuetzer {
       img {
         height: 64px;
+      }
+    }
+    #links {
+      .card {
+        .card-content {
+          a {
+            color: $black !important;
+          }
+        }
+        .card-action {
+          a {
+            color: $ff_magenta !important;
+          }
+        }
       }
     }
   }
