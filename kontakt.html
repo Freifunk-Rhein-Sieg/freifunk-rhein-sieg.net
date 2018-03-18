@@ -1,0 +1,61 @@
+---
+layout: page
+permalink: '/kontakt/'
+---
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="{{ '/assets/js/kontakt.js' | relative_url }}"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="container" id="section-wrapper">
+    <section id="kontakt">
+        <div class="center">
+            <h2 class="thin-text">Kontakt</h2>
+        </div>
+        <form method="post" action="https://services.freifunk.labcode.de/ffrs-website/contact-form/handler.php" class="row">
+            <div class="row">
+                <div class="input-field col s12">
+                    <select required name="recipient" class="validate">
+                        <option value="" disabled selected>Bitte Empf&auml;nger ausw&auml;hlen</option>
+                        <option value="vorstand">Vorstand</option>
+                        <option value="technik">Technik</option>
+                        <option value="cmy_ak">Community Altenkirchen</option>
+                        <option value="cmy_lo">Community Lohmar</option>
+                        <option value="cmy_rhb">Community Rheinbach</option>
+                        <option value="cmy_su">Community Siegburg</option>
+                        <option value="cmy_sta">Community St. Augustin</option>
+                        <option value="cmy_tdf">Community Troisdorf</option>
+                    </select>
+                    <label>Empf&auml;nger ausw&auml;hlen</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m6">
+                    <input required id="name" name="name" type="text" class="validate">
+                    <label for="name">Dein Name</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <input required id="email" name="email" type="email" class="validate">
+                    <label for="email">Deine E-Mail</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea required id="nachricht" name="nachricht" class="materialize-textarea"></textarea>
+                    <label for="nachricht">Deine Nachricht</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="g-recaptcha" data-sitekey="6LecWU0UAAAAAEn0x7omZAzYm-uHdSfA-r8IdLv8"></div>
+                </div>
+            </div>
+            <input id="hostname" name="hostname" type="hidden" value="{{ site.url }}">
+            <div class="row">
+                <div class="col s12">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </section>
+</div>

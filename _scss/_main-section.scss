@@ -87,5 +87,17 @@ main {
         }
       }
     }
+    #kontakt {
+      button {
+        background-color: $ff_magenta;
+      }
+      .dropdown-content {
+        li:not(.disabled) {
+          span {
+            color: $ff_magenta;
+          }
+        }
+      }
+    }
   }
 }

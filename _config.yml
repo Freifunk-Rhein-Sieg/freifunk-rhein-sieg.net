@@ -16,7 +16,8 @@
 title: Freifunk Rhein-Sieg e.V.
 email: kontakt@freifunk-rhein-sieg.net
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://freifunk-rhein-sieg.net" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://freifunk-rhein-sieg.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rs-website-v2.freifunk.labcode.de"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
