@@ -13,8 +13,9 @@ permalink: '/kontakt/'
         <form method="post" action="https://services.freifunk.labcode.de/ffrs-website/contact-form/handler.php" class="row">
             <div class="row">
                 <div class="input-field col s12">
-                    <select required name="recipient" class="validate">
-                        <option value="" disabled selected>Bitte Empf&auml;nger ausw&auml;hlen</option>
+                    <select required name="recipient" class="validate" id="recipient">
+                        <option value="" disabled selected id="recipient_option_choose">Bitte Empf&auml;nger ausw&auml;hlen</option>
+                        <option value="allgemein">Allgemein</option>
                         <option value="vorstand">Vorstand</option>
                         <option value="technik">Technik</option>
                         <option value="cmy_ak">Community Altenkirchen</option>
