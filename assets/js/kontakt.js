@@ -9,8 +9,9 @@ function getParameterByName(name, url) {
 }
 $(function () {
   const param_rcp = getParameterByName('rcp')
-  if(param_rcp !== "") {
+  if(param_rcp !== "" && param_rcp !== null && param_rcp !== undefined) {
     const rcp_option = $('#recipient>option[value=' + param_rcp + ']');
+    console.log(param_rcp)
     if(rcp_option.length === 1) {
       rcp_option.attr('selected', true);
       $('#recipient_option_choose').removeAttr('selected');
