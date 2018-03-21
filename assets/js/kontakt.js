@@ -13,8 +13,11 @@ $(function () {
     const rcp_option = $('#recipient>option[value=' + param_rcp + ']');
     console.log(param_rcp)
     if(rcp_option.length === 1) {
+      console.log(rcp_option)
       rcp_option.attr('selected', true);
       $('#recipient_option_choose').removeAttr('selected');
+      $('select').material_select();
+    } else {
       $('select').material_select();
     }
   } else {
