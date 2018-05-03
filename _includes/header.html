@@ -1,7 +1,8 @@
-<header class="navbar-fixed">
+<header>
     <nav>
         <div class="nav-wrapper">
             <a href="/" class="brand-logo">Freifunk Rhein-Sieg e.V.</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li class="navitem"><a href="{{ site.baseurl }}{% link der-verein.html %}">Der Verein</a></li>
                 <li class="navitem"><a href="{{ site.baseurl }}{% link mitmachen_unterstuetzen.html %}">Mitmachen / Unterst&uuml;tzen</a></li>
@@ -9,5 +10,11 @@
                 <li class="navitem"><a href="{{ site.baseurl }}{% link kontakt.html %}">Kontakt</a></li>
             </ul>
         </div>
+        <ul class="sidenav" id="nav-mobile">
+            <li class="navitem"><a href="{{ site.baseurl }}{% link der-verein.html %}">Der Verein</a></li>
+            <li class="navitem"><a href="{{ site.baseurl }}{% link mitmachen_unterstuetzen.html %}">Mitmachen / Unterst&uuml;tzen</a></li>
+            <li class="navitem"><a href="{{ site.baseurl }}{% link links.html %}">Links</a></li>
+            <li class="navitem"><a href="{{ site.baseurl }}{% link kontakt.html %}">Kontakt</a></li>
+        </ul>
     </nav>
 </header>

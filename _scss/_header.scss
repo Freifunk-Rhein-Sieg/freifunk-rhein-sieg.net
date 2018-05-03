@@ -3,7 +3,6 @@ header {
     background-color: $ff_magenta;
     .nav-wrapper {
       padding: 0 25px;
-      width: 100vw;
       .brand-logo {
         @media screen and (max-width: 991px){
           text-align: center;
