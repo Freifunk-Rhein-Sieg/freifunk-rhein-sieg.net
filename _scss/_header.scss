@@ -5,10 +5,25 @@ header {
       padding: 0 25px;
       .brand-logo {
         @media screen and (max-width: 991px){
-          text-align: center;
           width: 100%;
+          padding-left: 25px;
+          text-align: center;
+        }
+        @media screen and (max-width: 450px){
+          font-size: 1.8rem;
+        }
+        @media screen and (max-width: 330px){
+          font-size: 1.6rem;
+        }
+        @media screen and (max-width: 300px){
+          font-size: 1.4rem;
         }
         @extend .light-text
+      }
+      .sidenav-trigger {
+        @media screen and (max-width: 450px){
+          margin: 0 18px 0 0 !important;
+        }
       }
     }
   }
