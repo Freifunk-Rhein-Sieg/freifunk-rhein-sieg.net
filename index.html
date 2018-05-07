@@ -31,4 +31,22 @@ layout: page
             Wenn die im Koalitionsvertrag angekündigte Anerkennung der Gemeinnützigkeit nun noch dazu käme, wäre dies natürlich noch hilfreicher für die Praxis.
         </p>
     </section>
+    <section id="section-news">
+        <div class="center">
+            <h2 class="thin-text">Aktuelles</h2>
+        </div>
+        <ul class="collection">
+            {% for post in site.posts limit:5 %}
+                <li class="collection-item avatar">
+                    <a href="{{ post.url }}"><span class="title">{{ post.title }}</span></a>
+                    <p>
+                        {{ post.description }}
+                        <br>
+                        <i>{{ post.date | date: "%d.%m.%y" }} von {{ post.author }}</i>
+                    </p>
+                    <a href="{{ post.url }}" class="secondary-content"><i class="material-icons">chrome_reader_mode</i></a>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
 </div>

@@ -92,4 +92,20 @@ main {
       }
     }
   }
+  #section-news {
+    ul.collection {
+      .collection-item {
+        &.avatar {
+          padding: 10px 20px;
+          .title {
+            font-size: 18px;
+            color: rgba(0,0,0,.87);
+          }
+          a>i.material-icons {
+            color: $ff_magenta;
+          }
+        }
+      }
+    }
+  }
 }
