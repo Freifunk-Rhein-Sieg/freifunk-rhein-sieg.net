@@ -7,14 +7,14 @@ main {
     h3 {
       @extend .light-text
     }
-    .linear-gradient-card-wrapper > .col {
+    .communitycard-wrapper > .col {
       @media only screen and (max-width: 991px) {
         float: none;
         margin: 0 auto;
       }
-      .linear-gradient-card {
-        background-color: $black;
-        color: $white;
+      .communitycard {
+        background-color: $ff_yellow;
+        color: $black;
         width: 100%;
         border-radius: 10px;
         padding: 25px;
@@ -22,21 +22,6 @@ main {
         margin-bottom: 15px;
         -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
         box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
-        &.blue-gradient {
-          @include background-linear-gradient(40deg, #2196f3, #01579b)
-        }
-        &.pink-gradient {
-          @include background-linear-gradient(40deg, #ec407a, #880e4f)
-        }
-        &.orange-gradient {
-          @include background-linear-gradient(40deg, #ff9800, #bf360c)
-        }
-        &.green-gradient {
-          @include background-linear-gradient(40deg, #7cb342, #1b5e20)
-        }
-        &.purple-gradient {
-          @include background-linear-gradient(40deg, #311b92, #673ab7)
-        }
         .title {
           font-size: 1.75rem;
           display: block;
@@ -52,9 +37,13 @@ main {
             margin: 5px;
             -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+
             &:hover {
               -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
               box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+            }
+            i {
+              color: $black;
             }
           }
         }
