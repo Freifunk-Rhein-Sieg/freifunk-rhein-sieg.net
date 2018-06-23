@@ -60,10 +60,24 @@ main {
       }
     }
     #links {
-      .card {
-        .card-content {
-          a {
-            color: $black !important;
+      .row {
+        display: flex;
+        .col {
+          flex: 1;
+          .card {
+            height: 100%;
+            .card-content {
+              padding: 24px 24px 40px 24px;
+              a {
+                color: $black !important;
+              }
+            }
+            .card-action {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+            }
           }
         }
       }
