@@ -86,6 +86,10 @@ main {
       button {
         background-color: $ff_magenta;
       }
+      input[type="checkbox"]:checked+span:not(.lever):before {
+        border-right-color: $ff_magenta !important;
+        border-bottom-color: $ff_magenta !important;
+      }
       .dropdown-content {
         li:not(.disabled) {
           span {
