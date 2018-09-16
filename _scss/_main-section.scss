@@ -64,6 +64,9 @@ main {
         display: flex;
         .col {
           flex: 1;
+          &.offset-l4 {
+            margin-right: 33.3333333333%;
+          }
           .card {
             height: 100%;
             .card-content {
