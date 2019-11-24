@@ -1,5 +1,7 @@
 # Freifunk-Rhein-Sieg.net
 
-Dies ist das Repository zur Website [freifunk-rhein-sieg.net](https://freifunk-rhein-sieg.net).
+Dieses Repo wurde auf den Git Server des Freifunk Rhein-Sieg umgezogen.
 
-Es wird maintained von [@labcode-de](https://github.com/labcode-de). Bei Fragen gerne ne Mail an [hello@labcode.de](mailto:hello@labcode.de) / Twitter: [@labcode_de](https://twitter.com/labcode_de)
+https://git.freifunk-rhein-sieg.net/Freifunk-Rhein-Sieg/freifunk-rhein-sieg.net
+
+Feel free to edit there!
